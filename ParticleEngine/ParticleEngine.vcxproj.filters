@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{378f2de1-f715-46c2-8b6d-22ee060b038c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{0ca22668-968f-424e-9dd4-2a14394f32ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle\Shader Files">
+      <UniqueIdentifier>{97bec6c0-150b-47d5-9989-1bcacef2c2df}</UniqueIdentifier>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CallbackClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DefinitionsClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXDeviceClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManagerClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FlexibleIndexClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FlexibleVertexClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadQueueClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryMapClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEngine.cpp" />
+    <ClCompile Include="ParticleClass.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleShaderClass.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="LogClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Flick\CompressClass.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CallbackClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CompressClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DefinitionsClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXDeviceClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManagerClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FlexibleIndexClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FlexibleVertexClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_UserMessages.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadQueueClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryMapClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleClass.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleShaderClass.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LogClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Flick\CompressClass.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Callback.h" />
+    <ClInclude Include="GroupClass.h" />
+  </ItemGroup>
+</Project>

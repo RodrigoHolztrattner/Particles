@@ -1,0 +1,24 @@
+///////////////////////////////////////////////////////////////////////////////
+// Filename: BaseClass.cpp
+///////////////////////////////////////////////////////////////////////////////
+#include "BaseClass.h"
+
+
+BaseClass::BaseClass()
+{
+}
+
+BaseClass::BaseClass(const BaseClass& other)
+{
+}
+
+BaseClass::~BaseClass()
+{
+}
+
+bool BaseClass::Initialize()
+{
+	bool result;
+
+	return true;
+}

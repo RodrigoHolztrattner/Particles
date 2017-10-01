@@ -1,0 +1,65 @@
+////////////////////////////////////////////////////////////////////////////////
+// Filename: LogClass.h
+////////////////////////////////////////////////////////////////////////////////
+#ifndef _LogClass_H_
+#define _LogClass_H_
+
+/////////////
+// LINKING //
+/////////////
+
+//////////////
+// INCLUDES //
+//////////////
+#include <stdio.h>
+#include <string.h>
+
+using namespace std;
+
+/////////////
+// DEFINES //
+/////////////
+//#define _DEBUG_LOG
+
+#define LOG_FILENAME			"EngineLog.txt"
+
+////////////////////////////////////////////////////////////////////////////////
+// Class name: LogClass
+////////////////////////////////////////////////////////////////////////////////
+class LogClass
+{
+private:
+
+public:
+	LogClass();
+	LogClass(const LogClass&);
+	~LogClass();
+
+	// Write the data to the file
+	void Write(const char* data, unsigned int size);
+
+	// Erase the log file
+	void Erase();
+
+	// Write the data
+	void operator<<(const char* data);
+
+private:
+
+};
+
+//////////////////////
+// GLOBAL VARIABLES //
+//////////////////////
+
+// The global log object
+static LogClass* s_Log;
+
+//////////////////////
+// GLOBAL FUNCTIONS //
+//////////////////////
+
+// Return the log object
+LogClass* GetDebugLog();
+#define DebugLog (*GetDebugLog())
+#endif

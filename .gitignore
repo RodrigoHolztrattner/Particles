@@ -1,0 +1,7 @@
+*.sdf
+Debug/
+ParticleEngine/shader-error.txt
+ParticleEngine/Pthreads/
+ParticleEngine/Release/ParticleEngine.tlog/CL.write.1.tlog
+ParticleEngine/Release/
+Release/
