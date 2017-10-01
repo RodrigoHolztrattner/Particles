@@ -8,4 +8,6 @@ Dependencies:
 - Pthreads
 - zlib
 
+Project link: https://sites.google.com/view/rodrigoholztrattner/projects/project-particles
+
 Languages: C++ with DirectX
